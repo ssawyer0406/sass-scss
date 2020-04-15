@@ -1,7 +1,109 @@
-#navbar {
+/* Base Styles */
+body {
+  font-family: 'Nunito', sans-serif;
+  nav {
     display: flex;
-    .button {
-      color: green($color: #000000);
+    flex-direction: column;
+    align-items: flex-end;
+      
+      li {
+      display: inline-block;
+      margin-top: 0;
+      margin-right: 12px;
+      margin-left: 12px;
+      margin-bottom: 0;
+      text-decoration: underline;
+
+      .blue-button{
+        background-color: lightblue;
+        
+      }
+    }
+  
+  }
+
+
+}
+
+
+
+
+
+.blue-button .signup,input[type=submit]{
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+  border-radius: 6px;
+  width: 8em;
+  text-align: center;
+  display: inline-block;
+} 
+
+
+
+/* Layout styles */
+
+
+/* Block styles */
+
+.hero{
+  width:560px;
+  height:315px;
+
+  h1 {
+    text-align: center;
+    font-size: 2em;
+
+    h2 {
+      text-align: center;
+      font-weight: 10px;
+      font-size: 1em;
+
+      .video{
+        display: flex;
+        justify-content: center;
+        
+        
+      }
     }
   }
+}
+
+
+
+
+.signup{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5em;
+
+    form{
+      text-decoration: none;
+      color: white;
+      padding: 6em;
+      border-radius: 6rem;
+      width: 8em;
+      text-align: center;
+      display: inline-block;
+
+        .name{
+          display: flex;
+          flex-wrap: wrap;
+      
+      }
+
+
+        .form_2{
+          display:flex;
+          flex-wrap: wrap;
+          justify-content: flex-end;
+}
+  
+  
+  }
+
+}
+
 

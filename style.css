@@ -1,10 +1,110 @@
-#navbar {
+/* Base Styles */
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+body nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
-#navbar .button {
-  color: 0;
+body nav li {
+  display: inline-block;
+  margin-top: 0;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+body nav li .blue-button {
+  background-color: lightblue;
+}
+
+.blue-button .signup, input[type=submit] {
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+  border-radius: 6px;
+  width: 8em;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Layout styles */
+/* Block styles */
+.hero {
+  width: 560px;
+  height: 315px;
+}
+
+.hero h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.hero h1 h2 {
+  text-align: center;
+  font-weight: 10px;
+  font-size: 1em;
+}
+
+.hero h1 h2 .video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 5em;
+}
+
+.signup form {
+  text-decoration: none;
+  color: white;
+  padding: 6em;
+  border-radius: 6rem;
+  width: 8em;
+  text-align: center;
+  display: inline-block;
+}
+
+.signup form .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.signup form .form_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*# sourceMappingURL=style.css.map */
